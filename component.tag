@@ -11,5 +11,15 @@
 
     }
 
+    // This doesn't work
+    sadMethod() {
+      return 'T _ T'
+    }
+
+    // This works
+    this.verboseMethod = function() {
+      return '- _ -'
+    }
+
   </script>
 </component>
